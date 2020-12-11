@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="Default">
+<html lang="en">
 <head>
 	
     <meta charset="utf-8">
@@ -30,9 +30,6 @@
     
 </head>
 <body>
-<!-- Main container -->
-<div class="page-container">
-    
 <!-- Section header -->
 
 <header class="bloc bgc-white l-bloc header" id="bloc-0">
@@ -75,7 +72,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 </section>
 <!-- bloc-6 END -->
 
@@ -84,27 +80,27 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1">
 					<div class="form-group">
-						<label class="font">
+						<label for="name" class="font">
 							Name
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label class="font">
+						<label for="email" class="font">
 							Email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label class="font">
+						<label for="input_504" class="font">
 							How did you find me?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+							</label>
+						<input class="form-control" type="email" id="input_504" required />
 					</div>
 					<div class="form-group">
-						<label class="font">
+						<label for="message" class="font">
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -139,22 +135,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" aria-label="twitter link" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" aria-label="facebook" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" aria-label="dribble" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" aria-label="instagram" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -163,8 +159,6 @@
 	</div>
 </footer>
 <!-- Footer - bloc-8 END -->
-
-</div>
 <!-- Main container END -->
     
 
