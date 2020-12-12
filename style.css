@@ -1135,3 +1135,8 @@ h4 {
 .font {
     font-size: 16px !important;
 }
+
+/* display corrected unordered list */
+.display-corrected {
+    list-style-type: none;
+}
